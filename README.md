@@ -3,14 +3,14 @@
 Air is a single-column theme for [Hugo](http://gohugo.io/).
 Ported from [Casper theme for Ghost ](https://github.com/TryGhost/Casper), [vjeantet/hugo-theme-casper](https://github.com/vjeantet/hugo-theme-casper)
 
-- blog demo : http://seth.github.io/hugo-theme-air
+- blog demo : http://sethbergman.github.io/hugo-theme-air
 
-- blog source : https://github.com/seth/hugo-theme-air
+- blog source : https://github.com/sethbergman/hugo-theme-air
 
-![Hugo Air Theme screenshot](https://raw.githubusercontent.com/seth/hugo-theme-air/master/images/screen.gif)
+![Hugo Air Theme screenshot](https://raw.githubusercontent.com/sethbergman/hugo-theme-air/master/images/screen.gif)
 
 ```bash
-$ git clone https://github.com/seth/hugo-theme-air
+$ git clone https://github.com/sethbergman/hugo-theme-air
 
 $ cd hugo-theme-air
 
@@ -18,11 +18,11 @@ $ hugo
 
 $ hugo server
 ---------------------------------
-$ curl 127.0.0.1:1313/hugo-theme-air 
+$ curl 127.0.0.1:1313/hugo-theme-air
 ```
 ## Background Image
 
-[https://github.com/seth/hugo-theme-air/blob/master/static/css/screen.css#L1995](https://github.com/seth/hugo-theme-air/blob/master/static/css/screen.css#L1995)
+[https://github.com/sethbergman/hugo-theme-air/blob/master/static/css/screen.css#L1995](https://github.com/sethbergman/hugo-theme-air/blob/master/static/css/screen.css#L1995)
 
 ...`slow`
 
@@ -48,7 +48,7 @@ $ curl 127.0.0.1:1313/hugo-theme-air
 
     mkdir themes
     cd themes
-    git clone https://github.com/seth/hugo-theme-air
+    git clone https://github.com/sethbergman/hugo-theme-air
 
 ## Build your website with this theme
 
@@ -64,7 +64,7 @@ $ cat config.toml.backup
 $ cp config.toml.backup config.toml
 ```
 
-Example : [config.toml](https://github.com/seth/hugo-theme-air/blob/master/config.toml.backup)
+Example : [config.toml](https://github.com/sethbergman/hugo-theme-air/blob/master/config.toml.backup)
 
 ## Multiple authors configuration
 
@@ -125,7 +125,7 @@ Contents here
 ```
 
 ## Create new content based with default metadata from this theme
-You can easyly create a new content with all metadatas used by this theme, using this command 
+You can easily create new content with all meta data used by this theme using this command:
 ```
 hugo new -t hugo-theme-air post/my-post.md
 ```
@@ -133,7 +133,7 @@ hugo new -t hugo-theme-air post/my-post.md
 
 ```bash
 # build
-$ hugo 
+$ hugo
 
 $ cd public
 
@@ -156,10 +156,3 @@ $ git push -u origin gh-pages
 # open
 $ curl user.github.io/repository
 ```
-
-# Contact me
-
-:beetle: open an issue in github
-
-:bird: [https://twitter.com/seth__](https://twitter.com/seth__)
-
