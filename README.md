@@ -125,7 +125,7 @@ Contents here
 ```
 
 ## Create new content based with default metadata from this theme
-You can easily create new content with all meta data used by this theme using this command:
+You can easily create new content with all meta data used by this theme using this command
 ```
 hugo new -t hugo-theme-air post/my-post.md
 ```

@@ -9,9 +9,9 @@ min_version=0.14
 
 [author]
   name = "sethbergman"
-  homepage = "https://sethbergman.github.io"
+  homepage = "https://sethbergman.github.io/hugo-theme-air"
 
 [original]
-  name = "hugo-theme-casper"
-  homepage = "http://vjeantet.fr/"
-  repo = "https://github.com/vjeantet/hugo-theme-casper"
+  name = "hugo-theme-air"
+  homepage = "http://air.stackriot.com/"
+  repo = "https://github.com/sethbergman/hugo-theme-air"
