@@ -1,5 +1,5 @@
 {{ partial "header.html" . }}
-{{ $baseurl := default "/" .Site.BaseURL }}
+{{ $baseurl := .Site.BaseURL }}
 
 <header class="main-header " style="background-image: url({{$baseurl}}{{.Site.Params.cover}})">
 
